@@ -1,0 +1,146 @@
+/* eslint-disable prettier/prettier */
+export const categories = [
+  {
+    id: 1,
+    name: 'Soto',
+    image: require('../assets/images/soto.jpg'),
+  },
+  {
+    id: 2,
+    name: 'Bakso',
+    image: require('../assets/images/bakso.jpeg'),
+  },
+  {
+    id: 3,
+    name: 'Snack',
+    image: require('../assets/images/snack.jpeg'),
+  },
+  {
+    id: 4,
+    name: 'Jus',
+    image: require('../assets/images/jus.jpeg'),
+  },
+  {
+    id: 5,
+    name: 'Nasi Goreng',
+    image: require('../assets/images/nasgor.jpeg'),
+  },
+  {
+    id: 6,
+    name: 'Mie ayam',
+    image: require('../assets/images/mieayam.jpeg'),
+  },
+];
+
+export const featured = {
+  id: 1,
+  title: 'Murah & Berkualitas',
+  description: ' makanan || minuman || Snack ',
+  restaurants: [
+    {
+      id: 1,
+      name: 'Bakso',
+      image: require('../assets/images/bakso.jpeg'),
+      description: 'Bakso nikmat dan mantap',
+      lng: -85.5324269,
+      lat: 38.2145602,
+      address: 'kebon nanas',
+      stars: 4,
+      reviews: '4.4k',
+      category: 'Makanan',
+      dishes: [
+        {
+          id: 1,
+          name: 'bakso kecil',
+          description: 'bakso nikmat dan mantap',
+          price: 10000,
+          image: require('../assets/images/bkecil.jpg'),
+        },
+        {
+          id: 2,
+          name: 'bakso sedang',
+          description: 'bakso nikmat dan mantap',
+          price: 12000,
+          image: require('../assets/images/bsedang.jpeg'),
+        },
+        {
+          id: 3,
+          name: 'bakso jumbo',
+          description: 'bakso nikmat dan mantap',
+          price: 15000,
+          image: require('../assets/images/bjumbo.jpeg'),
+        },
+      ],
+    },
+    {
+      id: 2,
+      name: 'Jus',
+      image: require('../assets/images/jus.jpeg'),
+      description: 'minuman segar dan berkualitas',
+      lng: -85.5324269,
+      lat: 38.2145602,
+      address: 'otista 3',
+      stars: 5,
+      reviews: '4.8k',
+      category: 'Minuman',
+      dishes: [
+        {
+          id: 1,
+          name: 'jus jambu',
+          description: 'minuman segar dan berkualitas',
+          price: 10000,
+          image: require('../assets/images/jambu.jpeg'),
+        },
+        {
+          id: 2,
+          name: 'jus mangga',
+          description: 'minuman segar dan berkualitas',
+          price: 9000,
+          image: require('../assets/images/mangga.jpeg'),
+        },
+        {
+          id: 3,
+          name: 'jus melon',
+          description: 'minuman segar dan berkualitas',
+          price: 12000,
+          image: require('../assets/images/melon.jpeg'),
+        },
+      ],
+    },
+    {
+      id: 3,
+      name: 'Snack',
+      image: require('../assets/images/snackk.jpeg'),
+      description: 'Snack enak dan mantap',
+      lng: -85.5324269,
+      lat: 38.2145602,
+      address: 'jalan masjid',
+      stars: 5,
+      reviews: '10k',
+      category: 'Snack',
+      dishes: [
+        {
+          id: 1,
+          name: 'wafer',
+          description: 'mantap dan enak',
+          price: 2000,
+          image: require('../assets/images/biskuit.jpeg'),
+        },
+        {
+          id: 2,
+          name: 'lemper',
+          description: 'mantap dan enak',
+          price: 3000,
+          image: require('../assets/images/lemper.jpeg'),
+        },
+        {
+          id: 3,
+          name: 'Chitato',
+          description: 'mantap dan enak',
+          price: 5000,
+          image: require('../assets/images/snack.jpeg'),
+        },
+      ],
+    },
+  ],
+};
